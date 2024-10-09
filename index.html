@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gợi Ý Quán Ăn Ngon - TP. Hồ Chí Minh</title>
+    <!-- Link đến CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link đến Leaflet.js -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+
+<!-- Nội dung chính -->
+<div class="content">
+    <!-- Bảng danh sách món ăn bên trái -->
+    <div class="left-panel">
+        <div class="food-card">
+            <h3>Phở Bò - Quán A</h3>
+            <p>123 Lê Lợi, Quận 1</p>
+        </div>
+        <div class="food-card">
+            <h3>Bún Chả - Quán B</h3>
+            <p>456 Nguyễn Huệ, Quận 1</p>
+        </div>
+        <div class="food-card">
+            <h3>Cơm Tấm - Quán C</h3>
+            <p>789 Hai Bà Trưng, Quận 3</p>
+        </div>
+        <div class="food-card">
+            <h3>Bánh Xèo - Quán D</h3>
+            <p>678 Nguyễn Văn Trỗi, Quận Phú Nhuận</p>
+        </div>
+    </div>
+
+    <!-- Bản đồ bên phải -->
+    <div class="right-panel">
+        <div id="map"></div>
+    </div>
+</div>
+
+<!-- Leaflet.js -->
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<!-- Link đến file JavaScript -->
+<script src="scripts.js"></script>
+
+</body>
+</html>
